@@ -1,0 +1,7 @@
+fix_modprobe.d.5_alias
+modinfo_print_tags
+blacklist-warn.diff
+aliases_conf
+manpages_fr
+no_maps_by_default
+ubuntu-maps_by_default
