@@ -2,7 +2,7 @@
 SHELL+= -e
 
 BUILD_UDEB := 1
-DISABLE_ZLIB := --disable-zlib
+DISABLE_ZLIB := --enable-zlib
 CONFFLAGS := --disable-static-utils --prefix=/
 
 
@@ -41,7 +41,7 @@ build-udeb/config.status:
 	[ -d build-udeb ] || mkdir build-udeb
 	cd build-udeb/ && \
 	../configure CFLAGS='$(CFLAGS) -Os -fomit-frame-pointer' \
-		--disable-zlib $(CONFFLAGS)
+		--enable-zlib $(CONFFLAGS)
 
 build: .stamp-build
 .stamp-build: build-deb/config.status

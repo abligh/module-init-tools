@@ -1,3 +1,9 @@
+module-init-tools (3.16-1ubuntu2zlib1) precise; urgency=low
+
+  * Add zlib support
+
+ -- Alex Bligh <alex@alex.org.uk>  Wed, 29 May 2013 09:33:44 +0100
+
 module-init-tools (3.16-1ubuntu2) precise; urgency=low
 
   * Mark module-init-tools Multi-Arch: foreign.
